@@ -1,0 +1,68 @@
+.home {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.content {
+  display: flex;
+  gap: 20px;
+  align-items:flex-start; 
+}
+
+.content__left {
+    width: calc(50%-20px);
+}
+.title {
+  color: rgb(105, 69, 2);
+  font-weight: 500
+
+}
+
+.description {
+  font-size: 18px;
+  width: 100% - 20px;
+  border-radius: 5px;
+  background-color: rgba(231, 224, 218, 0.787);
+  margin: 0; 
+  margin-bottom: 10px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.we {
+  width: calc((100%-20px) / 2);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.plener { border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    width: 100% }
+.plenerTwo {border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    width: 100%; 
+    margin-top: 10px
+
+}
+
+@media screen and (max-width: 600px) {
+  .description {
+    font-size: 12px;
+    width: 90%; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-bottom: 20px
+  }
+  .home {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .title {font-size: 20px}
+  .content {
+    display: block;
+  }
+  .we {
+    width: 100%;
+    margin-top: 10px
+  }
+}

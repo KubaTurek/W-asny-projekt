@@ -1,0 +1,32 @@
+.footer {background-color: rgba(216, 162, 115, 0.79); 
+margin-top: 10px}
+
+.footer__box {display: flex; 
+gap: 20px; 
+align-items: center; 
+padding: 5px 5px}
+
+.footer__box li:hover {transform:scale(1.1)}
+
+.contacts {display: flex; 
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px; 
+    list-style: none; 
+    padding: 20px; 
+    margin: 0px
+    }
+
+.contacts__link {
+    text-decoration: none; 
+    font-weight: bold;
+    color: rgb(105, 69, 2)
+}
+
+.icon {width: 20px; 
+margin-right: 10px}
+
+@media screen and (max-width: 600px) {
+    .footer__box {flex-direction: column}
+}

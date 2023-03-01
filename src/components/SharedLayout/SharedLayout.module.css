@@ -1,0 +1,41 @@
+.background {
+  width: 100%;
+}
+
+.background__box {
+  position: relative;
+}
+.shared {
+  min-height: 100vh;
+  background-color: rgba(213, 189, 168, 0.787);
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(185, 181, 176, 0.7);
+  padding: 10px 10px;
+  position: absolute; 
+  bottom: 0; 
+  left: 50%;
+  transform: translate(-50%, -20%);
+ 
+}
+
+.nav__link {
+  text-decoration: none;
+  font-size: 26px;
+  font-weight: bold;
+}
+.nav__link:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 600px) {
+  .nav__link {
+    font-size: 16px;
+  }
+  .nav {padding: 5px 5px; }
+}
