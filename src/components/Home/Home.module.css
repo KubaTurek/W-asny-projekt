@@ -53,9 +53,8 @@
     margin-right: auto;
     margin-bottom: 20px
   }
-  .home {
-    padding-left: 10px;
-    padding-right: 10px;
+  .home {padding: 0px 10px
+    
   }
   .title {font-size: 20px}
   .content {
@@ -65,4 +64,5 @@
     width: 100%;
     margin-top: 10px
   }
+  .content__left {width: 100%}
 }
