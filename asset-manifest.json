@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-homework-template/static/css/main.dd103faf.css",
-    "main.js": "/react-homework-template/static/js/main.57712c8a.js",
-    "static/media/plener.jpg": "/react-homework-template/static/media/plener.b3c866f88eb8f9e248f5.jpg",
-    "static/media/plener2.jpg": "/react-homework-template/static/media/plener2.34cc43a6cbcbac2324af.jpg",
-    "static/media/my.jpg": "/react-homework-template/static/media/my.024f55217f43d1a3b11f.jpg",
-    "static/media/violins.jpg": "/react-homework-template/static/media/violins.8bc499d7570bea1911ec.jpg",
-    "static/media/tlo2.jpg": "/react-homework-template/static/media/tlo2.9077fa0c47ae923c3757.jpg",
-    "static/media/instagram.svg": "/react-homework-template/static/media/instagram.9bd6921d0e6f682ef39494609d13cb9e.svg",
-    "index.html": "/react-homework-template/index.html",
-    "static/media/mail2.svg": "/react-homework-template/static/media/mail2.c6e7feaf229fdf6e76c82660e5947c33.svg",
-    "static/media/facebook2.svg": "/react-homework-template/static/media/facebook2.7e12c4339b04a47f35b3b3bb16a25265.svg",
-    "static/media/phone.svg": "/react-homework-template/static/media/phone.9553808c2045790e30e550f74b5bed2b.svg",
-    "main.dd103faf.css.map": "/react-homework-template/static/css/main.dd103faf.css.map",
-    "main.57712c8a.js.map": "/react-homework-template/static/js/main.57712c8a.js.map"
+    "main.css": "/qarmello-quartett/static/css/main.370c2cba.css",
+    "main.js": "/qarmello-quartett/static/js/main.080ca545.js",
+    "static/media/plener.jpg": "/qarmello-quartett/static/media/plener.b3c866f88eb8f9e248f5.jpg",
+    "static/media/plener2.jpg": "/qarmello-quartett/static/media/plener2.34cc43a6cbcbac2324af.jpg",
+    "static/media/my.jpg": "/qarmello-quartett/static/media/my.024f55217f43d1a3b11f.jpg",
+    "static/media/violins.jpg": "/qarmello-quartett/static/media/violins.8bc499d7570bea1911ec.jpg",
+    "static/media/tlo2.jpg": "/qarmello-quartett/static/media/tlo2.9077fa0c47ae923c3757.jpg",
+    "static/media/instagram.svg": "/qarmello-quartett/static/media/instagram.9bd6921d0e6f682ef39494609d13cb9e.svg",
+    "index.html": "/qarmello-quartett/index.html",
+    "static/media/mail2.svg": "/qarmello-quartett/static/media/mail2.c6e7feaf229fdf6e76c82660e5947c33.svg",
+    "static/media/facebook2.svg": "/qarmello-quartett/static/media/facebook2.7e12c4339b04a47f35b3b3bb16a25265.svg",
+    "static/media/phone.svg": "/qarmello-quartett/static/media/phone.9553808c2045790e30e550f74b5bed2b.svg",
+    "main.370c2cba.css.map": "/qarmello-quartett/static/css/main.370c2cba.css.map",
+    "main.080ca545.js.map": "/qarmello-quartett/static/js/main.080ca545.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd103faf.css",
-    "static/js/main.57712c8a.js"
+    "static/css/main.370c2cba.css",
+    "static/js/main.080ca545.js"
   ]
 }
