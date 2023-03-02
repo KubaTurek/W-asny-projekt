@@ -23,7 +23,7 @@ export const SharedLayout = () => {
           Home
         </StyledLink>
         <StyledLink className={css.nav__link} to="./o-nas">
-          O nas
+         Team
         </StyledLink>
         <StyledLink className={css.nav__link} to="./repertuar">
           Repertuar

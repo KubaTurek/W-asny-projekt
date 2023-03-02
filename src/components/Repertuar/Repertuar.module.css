@@ -1,5 +1,75 @@
-.repertuar {margin: 20px}
+.repertuar {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto
+}
 
-.repertuar__title {text-align: center}
+.repertuar ul {padding-left: 0}
+.repertuar__title {
+  text-align: center;
+  margin-top: 0;
+  color: rgb(105, 69, 2);
+  font-weight: 500
+}
 
-.violins {width: 30%}
+.repertuar__lists {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(239, 235, 232, 0.787);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+background-image: url('./../../images/violins.jpg'); 
+background-size:cover;
+}
+
+.repertuar__buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center
+}
+
+.repertuar__button {
+  padding: 10px;
+  border-radius: 4px;
+  background-color: rgb(213, 147, 89);
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+  box-shadow: rgba(221, 206, 206, 0.16) 0px 3px 6px, rgba(133, 128, 128, 0.8) 0px 3px 6px;
+}
+.repertuar__button:hover {transform: scale(1.1)}
+
+.repertuar__items {display: flex; 
+flex-wrap: wrap; gap: 10px; 
+justify-content: space-around;
+background-color: rgba(239, 235, 232, 0.787);
+border-radius: 5px  }
+
+.repertuar__song {
+    list-style: none;
+    color: rgb(105, 69, 2);
+    flex-basis: calc(100% / 4);
+    padding: 5px
+    
+  }
+
+@media screen and (max-width: 600px) {
+  .repertuar {
+    flex-direction: column;
+    width: 80%;
+  }
+  .repertuar__button {padding: 5px; 
+    font-weight: 500;}
+  .repertuar__song {padding: 3px}
+  .repertuar__items {display: block; }
+  .repertuar__song {padding-left: 10px}
+  .repertuar__lists {background-size: contain;}
+}
+
+@media screen and (min-width: 601px) and (max-width:1100px) {
+    .repertuar__song {flex-basis: calc(100% / 3)} 
+}
