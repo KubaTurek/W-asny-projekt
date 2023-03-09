@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { NavLink, Outlet } from 'react-router-dom';
 import tlo from './../../images/tlo2.jpg';
 import css from './SharedLayout.module.css';
-import { Footer } from 'components/Footer/Footer';
+import { Footer } from './../../components/Footer/Footer';
 
 const StyledLink = styled(NavLink)`
   color: black;

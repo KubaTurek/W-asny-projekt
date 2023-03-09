@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { nanoid } from 'nanoid';
 import css from './Repertuar.module.css';
-import { weddingSongs, occasionSongs } from 'data/songsLists';
+import { weddingSongs, occasionSongs } from './../../data/songsLists';
 
 export const Repertuar = () => {
   const [songs, setSongs] = useState();
